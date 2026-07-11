@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmus → Musicana</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎵 Desmus → Musicana</h1>
+
+    <p>
+        Upload your exported Desmus playlist and generate a searchable list
+        that can be imported into Musicana.
+    </p>
+
+    <input type="file" id="fileInput" accept=".json">
+
+    <button id="convertBtn">
+        Convert Playlist
+    </button>
+
+    <h2>Results</h2>
+
+    <textarea
+        id="output"
+        readonly
+        placeholder="Your converted playlist will appear here..."
+    ></textarea>
+
+    <button id="copyBtn">
+        Copy Results
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
